@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+body{
+    background:rgb(236, 229, 229);
+}
+.navigation{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    font-size: 20px;
+    padding-left:10px;
+    padding-top: 5px;
+}
+
+@media screen and (min-width:320px) {
+    /* navigation */
+    .nav-buttons{
+        margin-top: -40px;
+    }
+    .menubtn{
+        color:white;
+        text-shadow: 1px 1px 2px rgb(128, 126, 126);
+    }
+    #home{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-top:11px;
+    }
+    .fa-bars{
+        color: rgb(18, 194, 254);
+    }
+    .fa-cart-shopping{
+        margin-right: -5px;
+    }
+    .navIcon:active{
+        color: rgb(87, 201, 163);
+        text-shadow: 1px 1px 2px black;
+    }
+    /* end of navigation */
+    /* search */
+    #searchForm{
+       width: 230px;
+    }
+    /* end of search */
+    /* category */
+    #image1{
+    
+        width: 40px;
+        height: 40px;
+    }
+    #image2{
+        width: 30px;
+        height: 100%;
+    }
+    .gridCategory > a{
+        text-decoration: none;
+        color: black;
+    }
+    #allCat{
+        padding-top: 12px;
+        color: rgb(18, 194, 254);
+    }
+    .category{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 100%;
+    }
+    
+    .rowCategory{
+        max-width: 1200px;
+    }
+    .rowCategory, .innerCategory{
+        white-space: nowrap;
+        overflow: scroll;
+    }
+    .innerCategory > a{
+        object-fit: cover;
+    }
+    .categoryButton{
+        background-color: rgb(242, 242, 242);
+        height: 50px;
+    }
+    .categoryButton:nth-child(1){
+        text-align: start;
+        margin-left:20px;
+        width: 70px;
+    }
+    /* end of category */
+
+
+    /* cart */
+    #offcanvasCart{
+        width: 280px;
+        background-color: white ;
+    }
+    #cart{
+        font-family: 'Poppins', sans-serif;
+    }
+    #closeBtn{
+        color:rgb(187, 4, 4);
+        margin-top:-5px;
+        font-size: 20px;
+    }
+    #head-title{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    #total{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left:15px;
+        margin-bottom: 10px;
+    }
+    #checkoutBtn{
+        background-color: rgb(18, 194, 254);
+        margin-bottom: 10px;
+        color: white;
+        width: 200px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    #checkoutBtn:active{
+        box-shadow: 0 0 2px black;
+        border: none;
+        color:rgb(18, 194, 254);
+        
+    }
+    /* end of cart */
+    /* search */
+    .searchContainer{
+        margin-top:30px ;
+        padding: 20px;
+    }
+    #searchBtn{
+        background-color: rgb(209, 204, 204);
+    }
+    .fa-search{
+        color:rgb(18, 194, 254);
+        text-shadow: 1px 1px 2px rgb(133, 130, 130);
+
+    }
+    /* end of search */
+    /* carousel */
+    #carouselExampleIndicators{
+        width: 90%;
+    }
+    .banner{
+        height: 150px;
+        border-radius: 10px;
+    }
+    /* main content */
+    .wb-title{
+        margin-left:15px;
+        margin-top:30px;
+        font-family: 'Poppins', sans-serif;
+        font-size:18px;
+        font-weight: bold;
+    }
+    .seeMore{
+        text-decoration: none;
+        color: rgb(18, 194, 254);
+        margin-top:-30px;
+        margin-right: 10px;
+    }
+    .rowGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+        row-gap: 10px;
+    }
+    .rowGrid > a{
+        text-decoration: none;
+    }
+    .cards{
+        width: 150px;
+        height: 300px;
+        padding: 2px;
+        background-color:rgb(242, 242, 242);
+        border-radius: 10px;
+    }
+    /* World Balance */
+    .crd1 > img{
+        width: 100%;
+    }
+    .crd1 > h5{
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        
+        color:black;
+    }
+    .crd1 > p{
+        font-size: 12px;
+        color: black;
+    }
+    .crd1 > p > i{
+        color: rgb(249, 193, 32);
+    }
+    .crd1 > button{
+        font-size: 12px;
+        background-color: rgb(87, 201, 163);
+        color:white;
+    }
+    .crd1 > button:active{
+        color: rgb(87, 201, 163);
+    }
+    /* Asics */
+    .crd2 > img{
+        width: 100%;
+    }
+    .crd2 > h5{
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        
+        color:black;
+    }
+    .crd2 > p{
+        font-size: 12px;
+        color: black;
+    }
+    .crd2 > p > i{
+        color: rgb(249, 193, 32);
+    }
+    .crd2 > button{
+        font-size: 12px;
+        background-color: rgb(87, 201, 163);
+        color:white;
+    }
+    .crd2 > button:active{
+        color: rgb(87, 201, 163);
+    }
+    .footer{
+        background-color: rgb(209, 204, 204);
+        width: 100%;
+        height: 100vh;
+        margin-top:80px;
+        padding-top: 20px;
+    }
+    .innerFooter{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .titleFooter{
+        font-family: 'Poppins', sans-serif;
+        font-size:15px;
+        font-weight: bold;
+        color: rgb(134, 130, 130);
+        text-align: center;
+    }
+    .connect{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        margin-left: 60px;
+    }
+    .fab{
+       font-size: 28px; 
+       text-shadow: 1px 1px 2px rgb(18, 194, 254);
+       color: rgb(71, 71, 71);
+    }
+    .fab:active{
+        color: white;
+    }
+    .connectName{
+        font-size: 0px;
+    }
+
+    .products{
+        list-style-type: none;
+        text-align: center;
+        margin-left:-33px;
+    }
+    .productsCategory{
+        text-decoration: none;
+        color: rgb(71, 71, 71);
+    }
+    .productsCategory:active{
+        color: white;
+    }
+    .help{
+        list-style-type: none;
+        text-align: center;
+        margin-left:-33px;
+    }
+    .helpContent{
+        color: rgb(71, 71, 71);
+        text-decoration: none;
+    }
+    .helpContent:active{
+        color: white;
+    }
+    #footer-search{
+        background-color: gray;
+    }
+    #footer-search:active{
+        background-color: rgb(196, 196, 196);
+        border: none;
+    }
+    .footerContent:nth-child(5){
+        font-family: 'Poppins', sans-serif;
+        font-size:15px;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
