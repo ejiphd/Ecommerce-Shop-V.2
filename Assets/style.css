@@ -183,17 +183,22 @@ body{
     /* World Balance */
     .crd1 > img{
         width: 100%;
+        border-radius: 5px;
     }
     .crd1 > h5{
         font-size: 15px;
         font-weight: bold;
-        font-style: italic;
-        
+        font-family: 'Poppins', sans-serif;
         color:black;
     }
+    .price{
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+    }
     .crd1 > p{
-        font-size: 12px;
+        font-size: 10px;
         color: black;
+        font-family: 'Poppins', sans-serif;
     }
     .crd1 > p > i{
         color: rgb(249, 193, 32);
@@ -202,6 +207,7 @@ body{
         font-size: 12px;
         background-color: rgb(87, 201, 163);
         color:white;
+        font-family: 'Poppins', sans-serif;
     }
     .crd1 > button:active{
         color: rgb(87, 201, 163);
@@ -209,23 +215,25 @@ body{
     /* Asics */
     .crd2 > img{
         width: 100%;
+        border-radius: 10px;
     }
     .crd2 > h5{
         font-size: 15px;
         font-weight: bold;
-        font-style: italic;
-        
+        font-family: 'Poppins', sans-serif;
         color:black;
     }
     .crd2 > p{
-        font-size: 12px;
+        font-size: 10px;
         color: black;
+        font-family: 'Poppins', sans-serif;
     }
     .crd2 > p > i{
         color: rgb(249, 193, 32);
     }
     .crd2 > button{
         font-size: 12px;
+        font-family: 'Poppins', sans-serif;
         background-color: rgb(87, 201, 163);
         color:white;
     }
