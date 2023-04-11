@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="Assets/style.css">
 </head>
 <body>
-    
+    <!-- navigation -->
     <div class="navigation">
         <h3 id="home" >Home</h3>
     </div>
@@ -19,13 +19,14 @@
         <a class="btn float-start menubtn" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasExample">
             <i class="fas fa-bars navIcon"></i>
         </a>
-        <a class="btn float-end menubtn" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasExample">
+        <a class="btn float-end menubtn" data-bs-toggle="offcanvas" href="#" role="button" >
             <i class="fas fa-user navIcon"></i>
         </a>
         <a class="btn float-end menubtn" data-bs-toggle="offcanvas" href="#offcanvasCart" role="button" aria-controls="offcanvasExample">
             <i class="fas fa-cart-shopping navIcon"></i>
         </a>
     </div>
+    <!-- end of navigation -->
     <!-- cart offcanvas -->
     <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">    
@@ -50,7 +51,30 @@
         </div>
     </div>
     <!-- End of card Offcanvas -->
-    <div class="searchContainer input-group" >
+    <!-- Menu Offcanvas -->
+    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">    
+            <h4 id="head-title">Categories</h4>
+            <a href="#" class="btn" data-bs-dismiss="offcanvas" id="closeBtn">
+                <i class="fas fa-close"></i>
+            </a>
+        </div>
+        <center>
+            <hr style="width:90%;">
+        </center>
+        
+        <div class="offcanvas-body">
+            <ul id="categoryMenu">
+                <li><a href="#" class="listsCategory">Men's Footwear</a></li>
+                <li><a href="#" class="listsCategory">Women's Footwear</a></li>
+                <li><a href="#" class="listsCategory">Bags</a></li>
+                <li><a href="#" class="listsCategory">T-Shirt</a></li>
+                <li><a href="#" class="listsCategory">Hoodie</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end of Menu Offcanvas -->
+    <div class="searchContainer searchContainer1 input-group" >
             <input type="text" class="form-control search" placeholder="Search">
             <button type="submit" class="btn input-group-text" id="searchBtn" >
                 <i class="fas fa-search"></i>
@@ -77,7 +101,7 @@
           </div>
         </div>
     </div>
-    </center>
+    </center><br>
     <!-- end of carousel -->
     <!-- categories -->
     <div class="category">
@@ -104,7 +128,6 @@
     </div>
     <!-- end of categories -->
     <!-- cards -->
-    <div class="mainCont">
             <!-- world balance -->
             <div class="innerGrid">
                 
@@ -201,8 +224,7 @@
                     </a>
                 </div>
             </div> 
-        </center>    
-        
+        </center>
         <!-- Asics -->
         <div class="innerGrid">
             <div class="title">
@@ -297,6 +319,7 @@
                 </a>
             </div>
         </div>
+    <!-- end of cards -->
         </center>
         <!-- footer -->
         <div class="footer">
@@ -341,7 +364,7 @@
                     </ul>
                 </div>
                 <div class="footerContent">
-                    <div class="searchContainer input-group" >
+                    <div class="searchContainer2 input-group" >
                         <input type="text" class="form-control search" placeholder="Search">
                         <button type="submit" class="btn input-group-text" id="footer-search" >
                             <i class="fas fa-search"></i>
